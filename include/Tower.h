@@ -4,7 +4,7 @@
 #include <utility>
 
 class Tower {
-private:
+protected:
     int id;
     int damage{};
 public:
