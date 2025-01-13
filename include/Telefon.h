@@ -9,7 +9,7 @@ private:
     int memorie;
 public:
     Telefon(const std::string &nume, double pret, std::string firma, int memorie);
-    ~Telefon() override;
+    ~Telefon() override = default;
 
     friend std::ostream& operator<<(std::ostream& os, const Telefon& t);
 };
